@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+/* import google font-family */
+:root {
+  --font-base: 'Lexend', sans-serif;
+  --font-second-base: "Inter", sans-serif;
+  --bg-color: #111;
+  --primary-color: #ffffff;
+  --secondary-color: #e50914;
+}
 
 *{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: var(--font-second-base);
+}
+body {
+  background-color: var(--bg-color);
 }
